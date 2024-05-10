@@ -5,5 +5,7 @@ void main()
  printf("Enter two numbers : ");
  scanf("%d %d",&a,&b);
  int c=a+b;
- printf("The adding two number is %d: ",c);
+ int d=a-b;
+ printf("The adding two number is %d : ",c);
+printf("The subtracted two number is %d : ",d);  
 }
